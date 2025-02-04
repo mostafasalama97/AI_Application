@@ -46,12 +46,14 @@
 
 ### **1️⃣ Clone the Repository**
 
+```
 `git clone https://github.com/your-repo/smart_news_reader.git
 
 cd smart_news_reader`
+```
 
 ### **2️⃣ Backend Setup (Flask)**
-
+```
 `cd backend
 
 python3 -m venv venv          # Create a virtual environment
@@ -60,7 +62,8 @@ source venv/bin/activate       # Activate the virtual environment
 
 pip install -r requirements.txt  # Install dependencies
 
-python main.py                 # Start backend on port 5000`
+python main.py                 # Start backend on port 8009`
+```
 
 > **Note:** You need to add your **OpenAI API Key** and **NewsAPI Key** in a `.env` file.
 
@@ -108,20 +111,24 @@ npm start                       # Start React frontend on port 3000`
 
 -   **Frontend Error: `Can't resolve 'web-vitals'`**
 
+```
     `cd front-end
 
     npm install web-vitals
 
     npm start`
+```
 
 -   **Backend Missing Dependencies**
 
 
+```
     `cd backend
 
     source venv/bin/activate
 
     pip install -r requirements.txt`
+```
 
 * * * * *
 
