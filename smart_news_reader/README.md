@@ -71,11 +71,13 @@ python main.py                 # Start backend on port 8009`
 
 ### **3️⃣ Frontend Setup (React)**
 
+```
 `cd ../front-end
 
 npm install                    # Install dependencies
 
 npm start                       # Start React frontend on port 3000`
+```
 
 * * * * *
 
